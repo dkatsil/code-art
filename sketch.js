@@ -41,12 +41,12 @@ function draw() {
     fill(350);
   }
   else{
-    fill(230,34,83);
+    fill(230,3,183);
   }
   ellipse(mouseX,mouseY,25,25);
 
   if (mouseIsPressed){
-    fill(133,33,133,150);
+    fill(33,33,133,150);
     ellipse(mouseX,mouseY,80,80);
   }
   else{
@@ -58,9 +58,9 @@ function draw() {
   ellipse(220, 120, 100, 100);
 
   if(keyIsPressed){
-    ellipse(320,330,50,50);
+    ellipse(220,430,50,50);
     ellipse(120,120,170,50);
-    ellipse(220,230,50,50);
+    ellipse(220,130,50,50);
     ellipse(20,30,50,50);
   }
 
@@ -88,6 +88,6 @@ function draw() {
     fill(255,142,0);
   }
 
-    triangle(50, 400, 150, 400, 100, 480);
-  quad(420, 290, 200, 450, 350, 150, 200, 50);
+    triangle(50, 400, 150, 300, 100, 480);
+  quad(420, 290, 200, 750, 550, 150, 200, 50);
   }

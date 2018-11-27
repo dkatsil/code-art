@@ -7,7 +7,7 @@ var c = 20;
 
 
 function setup() {
-  createCanvas(1480, 860);
+  createCanvas(1500, 900);
 
 textSize(64);
 fill(255,0,0);

@@ -50,7 +50,7 @@ function draw() {
     ellipse(mouseX,mouseY,80,80);
   }
   else{
-    fill(33,33,133,100);
+    fill(103,43,193,129);
     rectMode(CENTER);
     rect(mouseX,mouseY,80,80);
   }

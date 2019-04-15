@@ -46,7 +46,7 @@ function draw() {
   ellipse(mouseX,mouseY,25,25);
 
   if (mouseIsPressed){
-    fill(33,33,133,150);
+    fill(83,23,13,150);
     ellipse(mouseX,mouseY,80,80);
   }
   else{
@@ -76,7 +76,7 @@ function draw() {
     fill(255,255,0);
   } else if (mouseX>300){
     //violet
-    fill(101,22,232);
+    fill(91,102,32);
   }else if (mouseX>200){
     //green
     fill(101,250,182);
@@ -89,5 +89,5 @@ function draw() {
   }
 
     triangle(50, 400, 150, 300, 100, 480);
-  quad(1120, 990, 700, 850, 550, 150, 200, 50);
+  quad(1020, 890, 700, 850, 550, 150, 200, 50);
   }
